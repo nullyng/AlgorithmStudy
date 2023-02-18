@@ -1,0 +1,16 @@
+# 문제 개요
+
+문제 : [자동차 평균 대여 기간 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/157342)
+
+문제 분류 : sql
+
+# 문제 풀이
+
+```sql
+SELECT A.CAR_ID, ROUND(AVG(DATEDIFF(A.END_DATE, A.START_DATE) + 1), 1) as AVERAGE_DURATION
+FROM CAR_RENTAL_COMPANY_RENTAL_HISTORY A
+JOIN CAR_RENTAL_COMPANY_RENTAL_HISTORY B on A.CAR_ID = B.CAR_ID
+GROUP BY A.CAR_ID
+HAVING AVERAGE_DURATION >= 7
+ORDER BY AVERAGE_DURATION desc, A.CAR_ID desc;
+```
