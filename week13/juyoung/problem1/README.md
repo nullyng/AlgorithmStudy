@@ -2,7 +2,7 @@
 
 문제 : [N으로 표현](https://school.programmers.co.kr/learn/courses/30/lessons/42895)
 
-문제 분류 : 그리디
+문제 분류 : DP
 
 # 문제 풀이
 
