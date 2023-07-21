@@ -27,3 +27,5 @@ void postorder(int start, int end, int pos) {
 - `start`: 중위 순회 결과에서 부분 트리의 시작 인덱스
 - `end`: 중위 순회 결과에서 부분 트리의 끝 인덱스
 - `pos`: 전위 순회 결과에서 루트의 위치
+
+<img src="https://github.com/nullyng/AlgorithmStudy/assets/57346428/2fb1f42f-ffcb-48e6-a726-7d41e4334b89" width="600px">
