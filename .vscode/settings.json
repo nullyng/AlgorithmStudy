@@ -4,6 +4,7 @@
     "ios": "cpp",
     "unordered_set": "cpp",
     "__tree": "cpp",
-    "map": "cpp"
+    "map": "cpp",
+    "algorithm": "cpp"
   }
 }
