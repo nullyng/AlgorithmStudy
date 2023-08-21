@@ -1,6 +1,6 @@
 # 문제 개요
 
-문제: [사냥꾼](https://www.acmicpc.net/problem/)
+문제: [사냥꾼](https://www.acmicpc.net/problem/8983)
 
 문제 분류: 이분탐색
 
